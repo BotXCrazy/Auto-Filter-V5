@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5511128564:AAEMU24mwDunOSlDwxol3xa11KMoJ1v
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/5c586e00f34665267ab5b.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/d1d21a2befd244838fdaa.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/94750f782f45f592b823f.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e790.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jpg")
@@ -85,8 +85,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 1000000000005))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shorturllink.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'c63fdc34abc491d70d04b34914a87db66436868c')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'du-link.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '52e1b96ab95b741622ba914183a200088b316a87')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
