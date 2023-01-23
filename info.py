@@ -64,20 +64,7 @@ SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", <b><i>{file_name} » {file_size} › [POWERED BY TG UPDATES](https://t.me/TG_Updates_204)</i></b>
 )
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<i><b>📟 Movie Name</b></i> : <i><b><a href={url}>{title}</a></b></i>
-<i><b>🗒️ Release Date</b></i> : <i><b>{release_date}</b></i>
-
-<i><b>📧 Votes</b></i> : <i><b>{votes}</b></i>
-<i><b>⏰ RunTime</b></i> : <i><b>{runtime} Minutes</b></i>
-<i><b>⭐ IMDB Rating</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i>
-<i><b>🎞️ Genres</b></i> : <i><b>{genres}</b></i>
-<i><b>🎬 Director</b></i> : <i><b>{director}</b></i>
-<i><b>📝 Writer</b></i> : <i><b>{writer}</b></i>
-<i><b>🔊 Languages</b></i> : <i><b>#{languages}</b></i>
-<i><b>💃🏻 Cast</b></i> : <b>{cast}</b></i>
-
-<i><b>👩🏻‍💻 Requested By</b></i> : <i><b>{message.from_user.mention}</b></i>
-<i><b>🚀 Group</b></i> : <i><b>{message.chat.title}</b></i>")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 CYNITE_IMDB_TEMPLATE = environ.get("CYNITE_IMDB_TEMPLATE", "<b><b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>\n\n🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10\n💀 Rᴇʟᴇᴀsᴇ :  <b>{release_date}</b> <b>{countries}</b>\n\n🎭 Gᴇɴʀᴇs : <b>{genres}</b></b>\n\n<b>📖 Sᴛᴏʀʏ Lɪɴᴇ :</b> <code>{plot}</code>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
