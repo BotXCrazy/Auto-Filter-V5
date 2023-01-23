@@ -71,7 +71,6 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<i><b>📟 Movie Name </b></i> : <
 <i><b>🎞️ Genres </b></i> : <i><b>{genres}</b></i>
 <i><b>🎬 Director </b></i> : <i><b>{director}</b></i>
 <i><b>📝 Writer </b></i> : <i><b>{writer}</b></i>
-<i><b>🔊 Languages </b></i> : <i><b>#{languages}</b></i>
 <i><b>💃🏻 Cast </b></i> : <b>{cast}</b></i>
 <i><b>👩🏻‍💻 Requested By </b></i> : <i><b>{message.from_user.mention}</b></i>
 <i><b>🚀 Group </b></i> : <i><b>{message.chat.title}</b></i>")
