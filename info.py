@@ -32,7 +32,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/TG_Updates_204')
-auth_grp = environ.get('AUTH_GROUP','https://t.me/tgmoviesrequestgroup')
+auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
@@ -42,7 +42,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Asfiles")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TG_Movies_Request_Group')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+kovCxUJo_2kzMGI1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TG_Updates_204')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/BrokenBoy204')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
