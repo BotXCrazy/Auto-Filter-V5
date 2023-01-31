@@ -11,9 +11,9 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Cyniteofficial>☢ Cynite ☢</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/BrokenBoy204>☢ BrøkenBøy ☢</a></b>
 
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/CyniteBackup>Cynite Updates 👾</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/TG_Updates_204>TG Updates 👾</a></b>
 
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
@@ -50,7 +50,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/CyniteBackup)</code>
+<code>[Button Text](buttonurl:https://t.me/TG_Updates_204)</code>
 
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
@@ -113,7 +113,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
-<b><a href=https://t.me/CyniteBackup>~ Maintained by Cynite</a></b>"""
+<b><a href=https://t.me/BrokenBoy204>~ Maintained by BrøkenBøy</a></b>"""
 
     ADMIN_STATUS_TXT = """<b>⍟────[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]────⍟</b>
 
@@ -135,7 +135,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @CyniteBackup ]─────⍟</b>"""
+<b>⍟────[ @BrokenBoy204 ]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
@@ -192,9 +192,9 @@ Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ 🤧</b>
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ:- Cynite
-ᴜsᴇʀɴᴀᴍᴇ:- @cynitesupport
-ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ:- <a href='https://t.me/cynitesupport'>Cynite</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ:- BrøkenBøy
+ᴜsᴇʀɴᴀᴍᴇ:- @BrokenBoy204
+ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ:- <a href='https://t.me/BrokenBoy204'>BrøkenBøy</a></b>
 """
 
     CYNITE_IMDB = """
@@ -222,8 +222,8 @@ Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ 🤧</b>
 • /batch <code>- ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ғᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴍᴇᴅɪᴀ.<code>
 
 <b>Exᴀᴍᴘʟᴇ:</b>
-<code>/batch https://t.me/Cynitebackup
-https://t.me/CyniteBackup </code>
+<code>/batch https://t.me/TG_Updates_204
+https://t.me/TG_Updates_204 </code>
 """
 
     CYNITE_CNL = """
@@ -341,7 +341,7 @@ sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
 🚯ᴅᴏɴ'ᴛ ᴜsᴇ ➠ ':(!,./)
 
-Powered by :- @CyniteBackup
+Powered by :- @BrokenBoy204
 """
     
     REQUEST_TXT = """
@@ -424,7 +424,7 @@ Kɪɴᴅʟʏ Cʜᴇᴄᴋ Tʜᴇ Bᴏᴛ Bᴇғᴏʀᴇ Rᴇǫᴜᴇsᴛɪɴɢ.<
 
 🔅 Pᴏᴡᴇʀᴇᴅ Bʏ :- {}
 
-<a href='https://t.me/Cynitebackup'>‣ Tʜɪs Mᴇssᴀɢᴇ Wɪʟʟ ʙᴇ Aᴜᴛᴏ-Dᴇʟᴇᴛᴇᴅ Aғᴛᴇʀ 5 Mɪɴᴜᴛᴇs. Kɪɴᴅʟʏ Fᴏʀᴡᴀʀᴅ Yᴏᴜʀ Fɪʟᴇs Tᴏ Sᴀᴠᴇᴅ.</a></b>"""
+<a href='https://t.me/BrokenBoy204'>‣ Tʜɪs Mᴇssᴀɢᴇ Wɪʟʟ ʙᴇ Aᴜᴛᴏ-Dᴇʟᴇᴛᴇᴅ Aғᴛᴇʀ 5 Mɪɴᴜᴛᴇs. Kɪɴᴅʟʏ Fᴏʀᴡᴀʀᴅ Yᴏᴜʀ Fɪʟᴇs Tᴏ Sᴀᴠᴇᴅ.</a></b>"""
 
     FILE_READY_TXT = """
 <b>Hᴇʏ {}
