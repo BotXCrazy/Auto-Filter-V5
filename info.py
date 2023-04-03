@@ -37,12 +37,12 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://brokenboy:brokenboy204@cluster0.mwysc4u.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "brokenmovies204")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'CONNECTION')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://broken:broken204@cluster0.43vy5bj.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Asmovies204")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+kovCxUJo_2kzMGI1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TG_Movies_Request')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TG_Updates_204')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/BrokenBoy204')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
