@@ -15,13 +15,13 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '9573300'))
 API_HASH = environ.get('API_HASH', 'eaa2cf1d5cbf6dc81da2d85a76a335a5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5404511298:AAEdXlT_IOkLj9DWZCEhUfkc9Q9ggftuhjg9xw")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5968791476:AAEZdQQcVuJHHwhPgFO-NJV4p9eLpE4KcIc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/d1d21a2befd244838fdaa.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/3dde679d76eb6649021ef.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/94750f782f45f592b823f.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e790.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jpg")
@@ -37,8 +37,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://broken:broken204@cluster0.43vy5bj.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Asmovies204")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hp634270:Anshuu12@hulkdata.b27bdrc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "hulkuri")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
@@ -49,13 +49,13 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001600218127))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL',-1001780651238))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+QJ0zdNuBAh5lNWI9')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL',-1001836373817))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+kxierXGsE4A1ODQ1')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/how_to_open_link204/7')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL',  -1001567945519))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL',  -1001567945519))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL',-1001936317051))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL',  -1001936317051))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
@@ -86,8 +86,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 1000000000005))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'Gyanilinks.com')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '5aad1f642b86f31b46c05d06788c4f2bc5bb1008')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'seturl.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '9e6374471757e9dfc431cec9fd48db0629a6025a')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
