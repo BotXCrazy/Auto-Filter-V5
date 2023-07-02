@@ -86,7 +86,7 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 1000000000005))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'demo.shareus.in')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '.shareus.io')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'becbbce45f79c6f5109f848acd540567')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
